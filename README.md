@@ -6,7 +6,16 @@ This repository contains dockerfiles to create images to be used as dev-containe
 - latest Python 3 version
 - spark-3.1.1-bin-hadoop3.2
 
+## pyml-dev
+- latest Python 3 version
+- ...
+
+## tex-dev
+- latest Ubuntu
+- tex ...
+
 ## example: build an image
+
 ```
 cd pyspark-dev
 docker build -t dxa0/pyspark-dev .
