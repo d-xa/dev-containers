@@ -16,7 +16,14 @@ This repository contains dockerfiles to create images to be used as dev-containe
 
 ## example: build an image
 
+> pyspark-dev
 ```
 cd pyspark-dev
 docker build -t dxa0/pyspark-dev .
+```
+
+> hugo-dev
+```
+cd hugo-dev
+docker build -t dxa0/hugo-dev .
 ```
